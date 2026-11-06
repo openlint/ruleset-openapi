@@ -5,11 +5,11 @@ Ruleset package for OpenAPI (v3.2-v2.0) documents.
 Install the package and extend it directly:
 
 ```sh
-npm install --save-dev @openlint/openlint-ruleset-openapi
+npm install --save-dev @openlint/ruleset-openapi
 ```
 
 ```yaml
-extends: "@openlint/openlint-ruleset-openapi"
+extends: "@openlint/ruleset-openapi"
 ```
 
 This ruleset is based on `spectral:oas` for compatibility, but removes the following rules that had more to do with vendor-specific requirements than OpenAPI compatibility:
